@@ -7,6 +7,7 @@
     background-color: #120720;
     color: white;
     height: 100vh;
+    border-top: 10px solid rgba(255, 0, 234, 0.5);
 }
 
 .abttext {

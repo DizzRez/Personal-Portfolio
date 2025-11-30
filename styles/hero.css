@@ -4,13 +4,14 @@
 }
 
 .proftext {
-    margin-left: 9rem;
-    font-size: 1.5rem;
+    margin-left: 10rem;
+    font-size: 1.8rem;
 }
 
 .vertline {
     position: absolute;
-    top: 200px;
+    bottom: 65px;
+    left: 40px;
     height: 25%;
 }
 

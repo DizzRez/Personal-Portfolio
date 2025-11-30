@@ -6,6 +6,7 @@
     background-color: #120720;
     color: white;
     height: 100vh;
+    border-top: 5px dotted rgba(255, 255, 255, 0.1);
 }
 
 .skillinfo {
