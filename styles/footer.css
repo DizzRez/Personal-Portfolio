@@ -1,0 +1,12 @@
+.copyright {
+    color: white;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    background-color: #120720;
+    border-top: 1px solid grey;
+}
