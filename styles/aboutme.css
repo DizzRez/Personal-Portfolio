@@ -1,0 +1,34 @@
+.aboutme {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #120720;
+    color: white;
+    height: 100vh;
+}
+
+.abtme {
+    font-size: 100px;
+    line-height: 80px;
+    position: absolute;
+    top: 65px;
+    right: 650px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.imgcirc {
+    width: 400px;
+}
+
+.biog {
+    width: 40%;
+    /* border: 1px solid red; */
+}
