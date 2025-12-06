@@ -1,0 +1,66 @@
+.project {
+    /* display: flex; */
+    position: relative;
+    /* flex-direction: column;
+    align-items: flex-start;
+    justify-content: center; */
+    background-color: #120720;
+    color: white;
+    height: 100vh;
+    border-top: 5px dotted rgba(255, 255, 255, 0.1);
+}
+
+.protext {
+    font-size: 100px;
+    line-height: 80px;
+    position: absolute;
+    top: 65px;
+    right: 200px;
+}
+
+.contproj{
+    border: 2px solid white;
+    position: relative;
+}
+
+.proj1 {
+    width: 300px;
+    /* position: absolute; */
+}
+
+.contimg1 {
+    width: 100%;
+    position: relative;
+    border: 3px solid green;
+}
+
+.projtext1 {
+    font-size: 50px;
+    line-height: 80px;
+    position: absolute;
+    border: 1px solid red;
+}
+
+.proj2 {
+    width: 300px;
+}
+
+.contimg2 {
+    width: 100%;
+}
+
+.proj3 {
+    width: 300px;
+}
+
+.contimg3 {
+    width: 100%;
+}
+
+.proj4 {
+    width: 300px;
+}
+
+.contimg4 {
+    width: 100%;
+}
