@@ -6,7 +6,7 @@
     justify-content: center; */
     background-color: #120720;
     color: white;
-    height: 100vh;
+    height: 160vh;
     border-top: 5px dotted rgba(255, 255, 255, 0.1);
 }
 
@@ -15,52 +15,64 @@
     line-height: 80px;
     position: absolute;
     top: 65px;
-    right: 200px;
+    left: 200px;
 }
 
-.contproj{
+.project-grid{
     border: 2px solid white;
     position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    column-gap: 120px;
+    padding-top: 125px;
 }
 
-.proj1 {
-    width: 300px;
-    /* position: absolute; */
-}
-
-.contimg1 {
-    width: 100%;
+.contproj {
+    width: 350px;
     position: relative;
-    border: 3px solid green;
+    margin-top: 50px;
 }
 
-.projtext1 {
+.contproj .proj {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 22px;
+    position: relative;
+}
+
+.contproj .projtext {
     font-size: 50px;
     line-height: 80px;
     position: absolute;
-    border: 1px solid red;
+    bottom: 20px;
+    right: -50%;
+    top: 20%;
 }
 
-.proj2 {
-    width: 300px;
+.proj1{
+    left: 100%;
 }
 
-.contimg2 {
-    width: 100%;
+.text1{
+    left: 60%;
 }
 
-.proj3 {
-    width: 300px;
+.proj2{
+    right: 100%;
 }
 
-.contimg3 {
-    width: 100%;
+.text2{
+    left: -10%;
 }
 
-.proj4 {
-    width: 300px;
+.proj3{
+    left: 100%;
 }
 
-.contimg4 {
-    width: 100%;
+.text3{
+    left: 60%;
 }
