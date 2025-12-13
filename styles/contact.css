@@ -1,0 +1,67 @@
+.contact {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #120720;
+    color: white;
+    height: 100vh;
+    border-top: 5px dotted rgba(255, 255, 255, 0.1);
+}
+
+.contacttext {
+    font-size: 100px;
+    line-height: 80px;
+    position: absolute;
+    top: 50px;
+    left: 200px;
+}
+
+.contcontact {
+    border: 2px dashed rgb(119, 7, 95);
+    background-color: #1d0e30;
+    padding: 30px;
+    border-radius: 20px;
+    margin-top: 125px;
+}
+
+.contactlabel {
+    margin-bottom: 5px;
+    margin-left: 15px;
+}
+
+.contactinput {
+    border-radius: 17.5px ;
+    width: 517px;
+    height: 37px;
+    padding: 8px;
+    background-color: #49213F;
+    border: none;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.contactmessage {
+    border-radius: 17.5px;
+    width: 517px;
+    height: 74px;
+    padding: 8px;
+    background-color: #49213F;
+    border: none;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.contactsubmit {
+    border-radius: 17.5px;
+    width: 517px;
+    height: 37px;
+    padding: 8px;
+    background-color: #5b1f5c;
+    border: none;
+    margin-top: 5px;
+    color: #ffffff;
+}

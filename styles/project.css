@@ -19,7 +19,7 @@
 }
 
 .project-grid{
-    border: 2px solid white;
+    /* border: 2px solid white; */
     position: relative;
     height: 100%;
     display: flex;
