@@ -1,16 +1,18 @@
 .nametitle {
     margin-left: 7rem;
     font-size: 8rem;
+    line-height: 140px;
 }
 
 .proftext {
     margin-left: 10rem;
     font-size: 1.8rem;
+    padding-top: 30px;
 }
 
 .vertline {
     position: absolute;
-    bottom: 65px;
+    bottom: 35px;
     left: 40px;
     height: 25%;
 }
@@ -43,6 +45,7 @@
     background-color: #120720;
     color: white;
     height: 100vh;
+    padding-top: 5rem;
     /* border: 2px solid red; */
 }
 
