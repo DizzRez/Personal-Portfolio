@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./styles/global.css">
     <link rel="stylesheet" href="./styles/hero.css">
     <link rel="stylesheet" href="./styles/footer.css">
@@ -10,97 +11,136 @@
     <link rel="stylesheet" href="./styles/skills.css">
     <link rel="stylesheet" href="./styles/project.css">
     <link rel="stylesheet" href="./styles/contact.css">
+    <link rel="stylesheet" href="./styles/header.css">
     <title>Reza - Personal Portfolio</title>
 </head>
 <body>
-    <section class="herosect">
-        <h1 class="nametitle">Dion <br>I. Reza</h1>
-        <p class="proftext">I'm a junior web <br> developer who works <br> with websites for fun</p>
-        <img src="./Images/BIG GLOW.svg" class="circ circ-1">
-        <img src="./Images/SIDE CURVES.svg" class="circ circ-2">
-        <img src="./Images/vertline.png" class="vertline">
-    </section>
-    <section class="aboutme">
-        <h2 class="abttext">About <br> me</h2>
-        <div class="info">
-            <img src="./Images/Ellipse 13.png" class="imgcirc">
-            <p class="biog">Meet Rohan, a talented web developer with a passion for crafting 
-                elegant and functional digital solutions. Armed with expertise in HTML, CSS, JavaScript, and more, Their keen eye for detail,coupled with theircommitment to staying abreast of industry trends,ensures that every project they undertake is not only visually stunning but
-                 also optimizedfor peak performance.</p>
+    <header>
+        <div class="contheader">
+            <div class="navicont1">
+                <h3 class="nameheader">Rohan Patil</h3>
+                <a href="" class="navi">Home</a>
+                <a href="" class="navi">About</a>
+                <a href="" class="navi">Projects</a>
+                <a href="" class="navi">Contact</a>
+            </div>
+            <div class="navicont2">
+                <div class="theme-toggle">
+                    <span>Light</span>
+                    <label class="switch">
+                    <input type="checkbox" id="themeSwitch">
+                    <span class="slider"></span>
+                    </label>
+                    <span>Dark</span>
+                </div>
+                <a href="" class="contactheader">Contact Me</a>
+            </div>
         </div>
-    </section>
-    <section class="skills">
-        <h2 class="skilltext">My Skills</h2>
-            <div class="skillinfo">
-                <div class="skillcontainer">
-                    <div class="skilllist">
-                        <p>CSS</p>
-                        <p>HTML</p>
-                        <p>Python</p>
-                        <p>Javascript</p>
+    </header>
+    <main>
+        <section class="herosect">
+            <h1 class="nametitle" 
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            >Dion <br>I. Reza</h1>
+            <p class="proftext"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            >I'm a junior web <br> developer who works <br> with websites for fun</p>
+            <img src="./Images/BIG GLOW.svg" class="circ circ-1" 
+            data-aos="fade-up"
+            data-aos-duration="1000">
+            <img src="./Images/SIDE CURVES.svg" class="circ circ-2" 
+            data-aos="fade-up"
+            data-aos-duration="1000">
+            <img src="./Images/vertline.png" class="vertline">
+        </section>
+        <section class="aboutme">
+            <h2 class="abttext">About <br> me</h2>
+            <div class="info">
+                <img src="./Images/Ellipse 13.png" class="imgcirc">
+                <p class="biog">Meet Rohan, a talented web developer with a passion for crafting 
+                    elegant and functional digital solutions. Armed with expertise in HTML, CSS, JavaScript, and more, Their keen eye for detail,coupled with theircommitment to staying abreast of industry trends,ensures that every project they undertake is not only visually stunning but
+                    also optimizedfor peak performance.</p>
+            </div>
+        </section>
+        <section class="skills">
+            <h2 class="skilltext">My Skills</h2>
+                <div class="skillinfo">
+                    <div class="skillcontainer">
+                        <div class="skilllist">
+                            <p>CSS</p>
+                            <p>HTML</p>
+                            <p>Python</p>
+                            <p>Javascript</p>
+                        </div>
+                        <div class="skilllevel">
+                            <img src="./Images/level7.png">
+                            <img src="./Images/level5.png">
+                            <img src="./Images/level5.png">
+                            <img src="./Images/level4.png">
+                        </div>
                     </div>
-                    <div class="skilllevel">
-                        <img src="./Images/level7.png">
-                        <img src="./Images/level5.png">
-                        <img src="./Images/level5.png">
-                        <img src="./Images/level4.png">
+                    <div class="skillcontainer2">
+                        <div class="skilllist2">
+                            <p>Chemistry</p>
+                            <p>Physics</p>
+                            <p>Math</p>
+                            <p>Calculus</p>
+                        </div>
+                        <div class="skilllevel2">
+                            <img src="./Images/level7.png">
+                            <img src="./Images/level3.png">
+                            <img src="./Images/level5.png">
+                            <img src="./Images/level5.png">
+                        </div>
                     </div>
                 </div>
-                <div class="skillcontainer2">
-                    <div class="skilllist2">
-                        <p>Chemistry</p>
-                        <p>Physics</p>
-                        <p>Math</p>
-                        <p>Calculus</p>
-                    </div>
-                    <div class="skilllevel2">
-                        <img src="./Images/level7.png">
-                        <img src="./Images/level3.png">
-                        <img src="./Images/level5.png">
-                        <img src="./Images/level5.png">
-                    </div>
+        </section>
+        <section class="project">
+
+            <h2 class="protext">My Projects</h2>
+            <div class="project-grid">
+                <div class="contproj">
+                    <img class="proj proj1" src="https://dicoding-assets.sgp1.cdn.digitaloceanspaces.com/blog/wp-content/uploads/2025/06/types-of-web-development-services.jpg">
+                    <h3 class="projtext text1">project 1</h3>
+                </div>
+
+                <div class="contproj">
+                    <img class="proj proj2" src="https://dicoding-assets.sgp1.cdn.digitaloceanspaces.com/blog/wp-content/uploads/2025/06/types-of-web-development-services.jpg">
+                    <h3 class="projtext text2">project 2</h3>
+                </div>
+
+                <div class="contproj">
+                    <img class="proj proj3" src="https://dicoding-assets.sgp1.cdn.digitaloceanspaces.com/blog/wp-content/uploads/2025/06/types-of-web-development-services.jpg">
+                    <h3 class="projtext text3">project 3</h3>
                 </div>
             </div>
-    </section>
-    <section class="project">
+        </section>
+        <section class="contact">
+            <h2 class="contacttext">Contact Me</h2>
 
-        <h2 class="protext">My Projects</h2>
-        <div class="project-grid">
-            <div class="contproj">
-                <img class="proj proj1" src="https://dicoding-assets.sgp1.cdn.digitaloceanspaces.com/blog/wp-content/uploads/2025/06/types-of-web-development-services.jpg">
-                <h3 class="projtext text1">project 1</h3>
+            <div class="contcontact">
+                <form action="">
+                    <label for="" class="contactlabel">Name :</label><br>
+                    <input type="text" class="contactinput" placeholder="Type your full name here.."><br>
+                    <label for="" class="contactlabel">Email :</label><br>
+                    <input type="text" class="contactinput" placeholder="Type your email here.."><br>
+                    <label for="" class="contactlabel">Message :</label><br>
+                    <textarea name="message"  id="message" class="contactmessage" placeholder="Write your message here"></textarea><br>
+                    <br>
+                    <input type="submit" class="contactsubmit">
+                </form>
             </div>
-
-            <div class="contproj">
-                <img class="proj proj2" src="https://dicoding-assets.sgp1.cdn.digitaloceanspaces.com/blog/wp-content/uploads/2025/06/types-of-web-development-services.jpg">
-                <h3 class="projtext text2">project 2</h3>
-            </div>
-
-            <div class="contproj">
-                <img class="proj proj3" src="https://dicoding-assets.sgp1.cdn.digitaloceanspaces.com/blog/wp-content/uploads/2025/06/types-of-web-development-services.jpg">
-                <h3 class="projtext text3">project 3</h3>
-            </div>
-        </div>
-    </section>
-    <section class="contact">
-        <h2 class="contacttext">Contact Me</h2>
-
-        <div class="contcontact">
-            <form action="">
-                <label for="" class="contactlabel">Name :</label><br>
-                <input type="text" class="contactinput" placeholder="Type your full name here.."><br>
-                <label for="" class="contactlabel">Email :</label><br>
-                <input type="text" class="contactinput" placeholder="Type your email here.."><br>
-                <label for="" class="contactlabel">Message :</label><br>
-                <textarea name="message"  id="message" class="contactmessage" placeholder="Write your message here"></textarea><br>
-                <br>
-                <input type="submit" class="contactsubmit">
-            </form>
-        </div>
-    </section>
+        </section>
+    </main>
     <footer>
         <p class="copyright">&copy; All Right Reserved by Dion Izzudin Reza</p>
     </footer>
     <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
