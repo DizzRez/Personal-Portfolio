@@ -49,5 +49,10 @@
     /* border: 2px solid red; */
 }
 
+hr {
+    width: 100%;
+    border: 3px solid rgba(255, 0, 234, 0.5);
+    margin-top: 25px;
+}
 
 
