@@ -24,6 +24,8 @@
     padding: 30px;
     border-radius: 20px;
     margin-top: 125px;
+    width: 100%;
+    max-width: 600px;
 }
 
 .contactlabel {
@@ -33,7 +35,8 @@
 
 .contactinput {
     border-radius: 17.5px ;
-    width: 517px;
+    width: 100%;
+    max-width: 520px;
     height: 37px;
     padding: 8px;
     background-color: #49213F;
@@ -45,7 +48,8 @@
 
 .contactmessage {
     border-radius: 17.5px;
-    width: 517px;
+    width: 100%;
+    max-width: 520px;
     height: 74px;
     padding: 8px;
     background-color: #49213F;
@@ -57,11 +61,37 @@
 
 .contactsubmit {
     border-radius: 17.5px;
-    width: 517px;
+    width: 100%;
+    max-width: 520px;
     height: 37px;
     padding: 8px;
     background-color: #5b1f5c;
     border: none;
     margin-top: 5px;
     color: #ffffff;
+}
+
+@media screen and (max-width: 480px) {
+        .contacttext {
+            font-size: 45px;
+            left: 70px
+        }
+        .contcontact {
+            
+        }
+        
+        .contactinput {
+
+        }
+  }
+
+@media screen and (max-width: 768px) {
+    .contacttext {
+        font-size: 45px;
+        left: 70px
+
+    }
+    .contcontact {
+
+    }
 }
