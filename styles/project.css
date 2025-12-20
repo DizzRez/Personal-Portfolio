@@ -31,13 +31,15 @@
 }
 
 .contproj {
-    width: 350px;
+    width: 100%;
+    max-width: 350px;
     position: relative;
     margin-top: 50px;
 }
 
 .contproj .proj {
     width: 100%;
+    /* max-width: ; */
     height: 200px;
     object-fit: cover;
     border-radius: 22px;
@@ -76,3 +78,88 @@
 .text3{
     left: 60%;
 }
+
+@media screen and (max-width: 768px) {
+    .protext {
+        font-size: 70px;
+        left: 15%
+    }
+
+    .text1 {
+        left: 15%;
+    }
+
+    .proj1 {
+        left: 50%;
+    }
+
+    .text2 {
+        left: 25%;
+    }
+
+    .proj2 {
+        right: 50%;
+    }
+
+    .text3 {
+        left: 15%;
+    }
+
+    .proj3 {
+        left: 50%;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .protext {
+        font-size: 45px;
+        left: 15%
+    }
+
+    .contproj .proj {
+        width: 50%;
+        height: 100px;
+    }
+
+    .contproj .projtext {
+        font-size: 30px;
+        top: -60%;
+        width: 150px;
+    }
+
+        .protext {
+            font-size: 70px;
+            left: 15%
+        }
+    
+        .text1 {
+            left: 30%;
+            bottom: 30%;
+        }
+    
+        .proj1 {
+            left: 20%;
+            
+        }
+    
+        .text2 {
+            left: 30%;
+        }
+    
+        .proj2 {
+            left: 20%;
+        }
+    
+        .text3 {
+            left: 30%;
+        }
+    
+        .proj3 {
+            left: 20%;
+        }
+    
+}
+
+
+

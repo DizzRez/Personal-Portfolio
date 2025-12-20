@@ -14,7 +14,7 @@
     font-size: 100px;
     line-height: 80px;
     position: absolute;
-    top: 50px;
+    top: 75px;
     left: 200px;
 }
 
@@ -71,27 +71,29 @@
     color: #ffffff;
 }
 
-@media screen and (max-width: 480px) {
-        .contacttext {
-            font-size: 45px;
-            left: 70px
-        }
-        .contcontact {
-            
-        }
-        
-        .contactinput {
-
-        }
-  }
-
 @media screen and (max-width: 768px) {
     .contacttext {
-        font-size: 45px;
-        left: 70px
+        font-size: 70px;
+        left: 25%
 
     }
     .contcontact {
 
     }
 }
+
+@media screen and (max-width: 480px) {
+    .contacttext {
+        font-size: 50px;
+        left: 20%
+    }
+
+    .contcontact {
+            
+    }
+        
+    .contactinput {
+
+    }
+  }
+
