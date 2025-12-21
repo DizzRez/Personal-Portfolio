@@ -56,3 +56,78 @@ hr {
 }
 
 
+@media screen and (max-width: 768px) {
+    .nametitle {
+        margin-left: 3rem;
+        font-size: 5rem;
+        line-height: 100px;
+    }
+
+    .proftext {
+        margin-left: 5rem;
+        font-size: 2rem;
+    }
+
+    .vertline {
+        bottom: 185px;
+        left: -65px;
+        height: 22.5%;
+    }
+
+    .circ {
+        right: -10%;
+        top: 100px;
+        rotate: -90deg;
+        width: 60%;
+    }
+
+    .circ-1{
+        right: -10%;
+        top: 100px;
+        width: 60%;
+    }
+    
+    .circ-2{
+        right: -10%;
+        top: 90px;
+        width: 64%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .nametitle {
+        margin-left: 3rem;
+        font-size: 5rem;
+        line-height: 100px;
+    }
+
+    .proftext {
+        margin-left: 5rem;
+        font-size: 2rem;
+    }
+
+    .vertline {
+        bottom: 185px;
+        left: -65px;
+        height: 22.5%;
+    }
+
+    .circ {
+        right: -10%;
+        top: 100px;
+        rotate: -90deg;
+        width: 60%;
+    }
+
+    .circ-1{
+        right: -10%;
+        top: 100px;
+        width: 60%;
+    }
+    
+    .circ-2{
+        right: -10%;
+        top: 90px;
+        width: 64%;
+    }
+}
