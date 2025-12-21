@@ -15,7 +15,7 @@
     line-height: 80px;
     position: absolute;
     top: 65px;
-    right: 650px;
+    right: 15%;
 }
 
 .info {
@@ -32,4 +32,49 @@
 .biog {
     width: 40%;
     /* border: 1px solid red; */
+}
+
+@media screen and (max-width: 768px) {
+    .abttext {
+    font-size: 75px;
+    right: 55%;
+    }
+
+    .imgcirc {
+        width: 350px;
+    }
+
+    .info {
+        flex-direction: column;
+    }
+
+    .biog {
+        text-align: justify;
+        font-size: 25px;
+        width: 70%;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .abttext {
+        font-size: 60px;
+        right: 50%;
+        top: 5%;
+        }
+
+    .imgcirc {
+        width: 250px;
+    }
+    
+    .info {
+        flex-direction: column;
+    }
+    
+    .biog {
+        text-align: justify;
+        font-size: 18px;
+        width: 80%;
+        margin-top: 10px;
+    }
 }

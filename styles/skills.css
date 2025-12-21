@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    position: relative;
     background-color: #120720;
     color: white;
     height: 100vh;
