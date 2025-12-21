@@ -52,7 +52,7 @@
     position: absolute;
     bottom: 20px;
     right: -50%;
-    top: 20%;
+    top: 10%;
 }
 
 .proj1{
@@ -81,65 +81,71 @@
 
 @media screen and (max-width: 768px) {
     .protext {
-        font-size: 70px;
+        font-size: 75px;
         left: 15%
     }
 
+    .contproj .projtext {
+        width: 250px;
+    }
+
+    .contproj .proj {
+        margin-bottom: 75px;
+    }
+
     .text1 {
-        left: 15%;
+        left: 5%;
     }
 
     .proj1 {
-        left: 50%;
+        left: 40%;
     }
 
     .text2 {
-        left: 25%;
+        left: 40%;
     }
 
     .proj2 {
-        right: 50%;
+        right: 40%;
     }
 
     .text3 {
-        left: 15%;
+        left: 5%;
     }
 
     .proj3 {
-        left: 50%;
+        left: 40%;
     }
 
 }
 
 @media screen and (max-width: 480px) {
-    .protext {
-        font-size: 45px;
-        left: 15%
-    }
 
     .contproj .proj {
-        width: 50%;
-        height: 100px;
+        width: 75%;
+        height: 150px;
+        margin-bottom: 75px;
     }
 
     .contproj .projtext {
-        font-size: 30px;
-        top: -60%;
-        width: 150px;
+        font-size: 40px;
+        top: -40%;
+        width: 175px;
     }
 
         .protext {
-            font-size: 70px;
-            left: 15%
+            font-size: 45px;
+            width: 300px;
+            left: 15%;
+            top: 5%;
         }
     
         .text1 {
             left: 30%;
-            bottom: 30%;
         }
     
         .proj1 {
-            left: 20%;
+            left: 15%;
             
         }
     
@@ -148,7 +154,7 @@
         }
     
         .proj2 {
-            left: 20%;
+            left: 15%;
         }
     
         .text3 {
@@ -156,7 +162,7 @@
         }
     
         .proj3 {
-            left: 20%;
+            left: 15%;
         }
     
 }

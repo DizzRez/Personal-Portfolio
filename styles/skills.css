@@ -71,3 +71,83 @@
     width: 330px;
     padding-top: 16.5px;
 }
+
+@media screen and (max-width: 768px) {
+    .skillcontainer2 {
+        top: 62.5%;
+        right: 0%;
+        left: 15%;
+    }
+
+    .skillcontainer {
+        top: 27.5%;
+        left: 15%
+    }
+
+    .skilltext {
+        font-size: 75px;
+        left: 25%;
+    }
+
+    .skilllevel img {
+        display: block;
+        width: 300px;
+        padding-top: 16.5px;
+    }
+
+    .skilllist p {
+        font-size: 29px;
+        margin-top: 8px;
+    }
+
+    .skilllevel2 img {
+        display: block;
+        width: 300px;
+        padding-top: 16.5px;
+    }
+
+    .skilllist2 p {
+        font-size: 29px;
+        margin-top: 8px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .skillcontainer2 {
+        top: 65%;
+        right: 0%;
+        left: 10%;
+    }
+
+    .skillcontainer {
+        top: 30%;
+        left: 10%;
+    }
+
+    .skilltext {
+        font-size: 65px;
+        left: 15%;
+    }
+
+    .skilllevel img {
+        display: block;
+        width: 165px;
+        padding-top: 16.5px;
+    }
+
+    .skilllist p {
+        font-size: 21px;
+        margin-top: 8px;
+    }
+
+    .skilllevel2 img {
+        display: block;
+        width: 165px;
+        padding-top: 16.5px;
+    }
+
+    .skilllist2 p {
+        font-size: 21px;
+        margin-top: 8px;
+    }
+}
