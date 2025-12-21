@@ -7,22 +7,22 @@
     background-color: #120720;
     color: white;
     height: 100vh;
-    /* border-top: 10px solid rgba(255, 0, 234, 0.5); */
+    border-top: 10px solid rgba(255, 0, 234, 0.67);
 }
 
 .abttext {
     font-size: 100px;
     line-height: 80px;
     position: absolute;
-    top: 65px;
-    right: 15%;
+    top: 50px;
+    right: 20%;
 }
 
 .info {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 25px;
+    gap: 40px;
 }
 
 .imgcirc {
@@ -30,7 +30,9 @@
 }
 
 .biog {
-    width: 40%;
+    font-size: 25px;
+    width: 50%;
+    text-align: justify;
     /* border: 1px solid red; */
 }
 
