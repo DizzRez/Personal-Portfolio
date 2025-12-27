@@ -75,10 +75,10 @@
     .contacttext {
         font-size: 70px;
         left: 25%
-
     }
-    .contcontact {
 
+    .contcontact {
+        width: 90%;
     }
 }
 
@@ -86,14 +86,6 @@
     .contacttext {
         font-size: 50px;
         left: 20%
-    }
-
-    .contcontact {
-            
-    }
-        
-    .contactinput {
-
     }
   }
 
