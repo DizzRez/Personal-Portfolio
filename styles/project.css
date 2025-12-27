@@ -45,6 +45,15 @@
     border-radius: 22px;
     position: relative;
 }
+.proj {
+    scale: 1;
+    transition: ease-in-out;
+    transition-duration: 0.5s;
+}
+
+.proj:hover {
+    scale: 1.1;
+}
 
 .contproj .projtext {
     font-size: 50px;
