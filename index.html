@@ -136,7 +136,7 @@
             <h2 class="contacttext">Contact Me</h2>
 
             <div class="contcontact">
-                <form action="">
+                <!-- <form action="https://formspree.io/f/xaqnbpbw" method="post">
                     <label for="" class="contactlabel">Name :</label><br>
                     <input type="text" class="contactinput" placeholder="Type your full name here.."><br>
                     <label for="" class="contactlabel">Email :</label><br>
@@ -144,8 +144,22 @@
                     <label for="" class="contactlabel">Message :</label><br>
                     <textarea name="message"  id="message" class="contactmessage" placeholder="Write your message here"></textarea><br>
                     <br>
-                    <!-- <input type="submit" class="contactsubmit">  -->
+                    <input type="submit" class="contactsubmit">
                     <button class="custom-btn btn-15">Submit</button>
+                </form> -->
+
+                <form id="contactForm">
+                    <label for="" class="contactlabel">Name :</label><br>
+                    <input type="text" name="name" class="contactinput" placeholder="Type your full name here.." required><br>
+                    <label for="" class="contactlabel">Email :</label><br>
+                    <input type="email" name="email" class="contactinput" placeholder="Type your email here.." required><br>
+                    <label for="" class="contactlabel">Message :</label><br>
+                    <textarea name="message"  id="message" class="contactmessage" placeholder="Write your message here" required></textarea><br>
+                    <br>
+                    <!-- <input type="submit" class="contactsubmit">  -->
+                    <input type="text" name="_gotcha" style="display: none;">
+                    <button class="custom-btn btn-15" type="submit">Submit</button>
+                    <p id="formStatus"></p>
                 </form>
             </div>
         </section>
