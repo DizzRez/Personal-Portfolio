@@ -61,3 +61,14 @@ form.addEventListener("submit", function(e) {
         status.style.color = "red";
       });
 });
+
+const nameHeader = document.getElementById("nameHeader");
+
+nameHeader.addEventListener("click", () => {
+  dropdownMenu.classList.remove("active");
+});
+
+nameHeader.addEventListener("click", () => {
+  dropdownMenu.classList.remove("active");
+  window.scrollTo({ top: 0, behavior: "smooth" });
+});
